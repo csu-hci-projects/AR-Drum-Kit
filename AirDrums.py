@@ -180,7 +180,7 @@ while True:
 		mask = ROI_analysis(bass_ROI,3,color)
 
 	# A writing text on an image.
-	cv2.putText(frame,'Project: Air Drums',(10,30),2,1,(20,20,20),2)
+	cv2.putText(frame,'Project: AR DrumKit',(10,30),2,1,(20,20,20),2)
 	
 	# Display the ROI to view the blue colour being detected
 	if Verbsoe:
